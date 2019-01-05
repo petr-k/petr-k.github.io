@@ -1,8 +1,8 @@
-title: Sorting Hat
-author: pro-panda
-subtitle: A wizardly wager
+title: Petr Krebs
+author: Petr Krebs
+subtitle: subtitle
 
-baseurl: "/sorting-hat"
+baseurl: ""
 
 markdown: kramdown
 
@@ -21,5 +21,3 @@ sass:
 navbar:
  - name: "About"
    link: "about"
- - name: "Resume"
-   link: "resume.pdf"
