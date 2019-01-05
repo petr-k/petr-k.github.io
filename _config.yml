@@ -10,8 +10,6 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-highlighter: rouge
-
 footer_url: "https://github.com/pro-panda"
 footer_text: "Made by pro-panda"
 
