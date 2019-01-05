@@ -9,6 +9,14 @@ layout: default
 Hi!
 I am J.Doe, a 5th year Potions student at Hogwarts School of Witchcraft and Wizardry.
 
+```shell
+#!/bin/bash
+# declare STRING variable
+STRING="Hello World"
+#print variable on a screen
+echo $STRING
+```
+
 This is a jekyll based blog template. The source code is available on [GitHub](https://github.com/pro-panda/sorting-hat).
 
 ## Research Interest
