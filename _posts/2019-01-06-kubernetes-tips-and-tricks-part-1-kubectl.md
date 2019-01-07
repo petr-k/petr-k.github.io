@@ -230,6 +230,6 @@ While this installment of Kubernetes tips and tricks does not introduce anything
 particularly mind-blowing or new, hopefully I've managed to convince you
 that `kubectl` is a very capable tool.
 
-In next posts, we'll look more into the runtime side of `Pods`: running a one-off pods,
-working with logs, exec'ing into pods and copying files, or capturing a pod's live
-traffic into Wireshark.
+In next posts, we'll look more into the runtime side of `Pods`: running one-off pods,
+working with logs, exec'ing into pods and copying files, or inspecting a pod's live
+traffic with Wireshark.
