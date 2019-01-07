@@ -2,8 +2,8 @@
 layout: page
 title: "Kubernetes tips and tricks, part&nbsp;1: kubectl&nbsp;&&nbsp;friends"
 snippet: |
-  In this quick post, I’ll try to highlight some of useful kubectl features
-  as well as few little things that you may have missed in the docs.
+  In this quick post, I’ll try to highlight few useful kubectl features,
+  as well as some little things that you may have missed in the docs.
 tags: [kubernetes]
 comments-issue-id: 1
 ---
@@ -11,7 +11,7 @@ comments-issue-id: 1
 While many Kubernetes newcomers routinely use the [dashboard](https://github.com/kubernetes/dashboard)
 or similar user interface, `kubectl` - the official CLI - often goes unappreciated. I believe
 `kubectl` is _the_ tool to learn well, as it is very powerful and can do just about everything. In
-this quick post, I'll try to highlight some of its notably useful features as well as few little
+this quick post, I'll try to highlight few of its notably useful features, as well as some little
 things that you may have missed in the docs.
 
 ## 1. Shell completion
