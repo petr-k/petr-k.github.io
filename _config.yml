@@ -14,8 +14,7 @@ footer_url: "https://github.com/pro-panda/sorting-hat"
 footer_text: "Made with Jekyll & sorting-hat"
 
 profile-picture: assets/rs-1.jpg
-
-favicon_location: assets/favicon.ico
+favicon_location: "assets/rs-1.ico"
 
 permalink: /:year-:month-:day-:title/
 sass:

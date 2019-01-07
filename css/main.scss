@@ -80,7 +80,8 @@ hr {
     color: #272727;
     display: inline-block;
     font-size: 30px;
-    line-height: 1.5;
+    line-height: 1.2;
+    margin-bottom: 0.75em;
 }
 .post-details{
     @extend .pull-right;
@@ -98,7 +99,8 @@ hr {
     text-align: center;
     font-size: xx-large;
     font-weight: bold;
-    line-height: 1.7;
+    line-height: 1.1;
+    margin-bottom: 0.75em;
 }
 .page-subtitle{
     text-align: center;
@@ -244,4 +246,8 @@ table tr th :first-child, table tr td :first-child {
 }
 table tr th :last-child, table tr td :last-child {
     margin: 0;
+}
+
+pre.highlight {
+    overflow-x: auto;
 }
