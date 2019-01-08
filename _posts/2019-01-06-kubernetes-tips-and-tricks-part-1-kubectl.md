@@ -198,8 +198,8 @@ kubectl get po -l app=nginx -o 'jsonpath={range .items[*]}{.metadata.name}:{end}
 
 will give you
 ```
-nginx-766d958db5-2f8t9
-nginx-766d958db5-7868d
+nginx-deployment-766d958db5-2f8t9
+nginx-deployment-766d958db5-7868d
 ```
 
 Notice how _":"_ is inserted between the `range-end` expression and then replaced with a 
@@ -216,10 +216,10 @@ kubectl get po -o 'custom-columns=name:metadata.name,images:spec.containers[*].i
 
 will give you
 ```
-name                                       images
-nginx-766d958db5-2f8t9                     nginx:1.7.9
-nginx-766d958db5-7868d                     nginx:1.7.9
-tiller-deploy-6995d897d4-6b4xj             gcr.io/kubernetes-helm/tiller:v2.9.1
+name                                  images
+nginx-deployment-766d958db5-2f8t9     nginx:1.7.9
+nginx-deployment-766d958db5-7868d     nginx:1.7.9
+tiller-deploy-6995d897d4-6b4xj        gcr.io/kubernetes-helm/tiller:v2.9.1
 ```
 
 Notice that you do not need concern yourself with iterating over `List`s here, since the
