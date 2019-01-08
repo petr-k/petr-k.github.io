@@ -174,7 +174,7 @@ piped into [jq](https://stedolan.github.io/jq/) or [yq](https://github.com/mikef
 
 ### 5.4. jsonpath
 While you can combine `-o json` with piping the command output
-to [jq](https://stedolan.github.io/jq/), sometimes you can do just with the
+to [jq](https://stedolan.github.io/jq/), oftentimes you can achieve same result with `kubectl`'s
 built-in [JSONPath support](https://kubernetes.io/docs/reference/kubectl/jsonpath/).
 
 `kubectl get po nginx-deployment-766d958db5-2f8t9 -o jsonpath={.metadata.name}` will print:
