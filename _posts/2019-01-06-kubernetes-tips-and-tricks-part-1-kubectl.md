@@ -153,12 +153,7 @@ nginx-deployment-766d958db5-7868d   1/1     Running   0          4m45s   172.21.
 
 Every resource has a different set of _default_ and _"wide"_ printed columns.
 
-### 5.2. json/yaml
-Those two do just what you'd expect. They print the most complete representations
-of an object (or multiple objects), and they are especially powerful when
-piped into [jq](https://stedolan.github.io/jq/) or [yq](https://github.com/mikefarah/yq).
-
-### name
+### 5.2. name
 Will print out just the object name. Might not seem that useful on first glance,
 but it's often used in scripts, e.g. when iterating over deployment's `Pod`s.
 
@@ -172,7 +167,12 @@ pod/nginx-deployment-766d958db5-7868d
 Notice the `pod/` prefix in this case - that's because `-o name` output will
 include the resource _kind_.
 
-### 5.3. jsonpath
+### 5.3. json/yaml
+Those two do just what you'd expect. They print the most complete representations
+of an object (or multiple objects), and they are especially powerful when
+piped into [jq](https://stedolan.github.io/jq/) or [yq](https://github.com/mikefarah/yq).
+
+### 5.4. jsonpath
 While you can combine `-o json` with piping the command output
 to [jq](https://stedolan.github.io/jq/), sometimes you can do just with the
 built-in [JSONPath support](https://kubernetes.io/docs/reference/kubectl/jsonpath/).
@@ -206,7 +206,7 @@ Notice how _":"_ is inserted in the JSONPath expression and then replaced with a
 newline using `tr` - this is a common pattern to get newlines into the output,
 which enables feeding resulting values into other tools.
 
-### 5.3. custom-columns
+### 5.5. custom-columns
 `-o custom-columns` nicely combines tabular output with JSONPath support.
 
 For instance, to list `Pods` along with image names:
