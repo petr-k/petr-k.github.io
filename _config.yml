@@ -4,6 +4,9 @@ subtitle: personal blog
 
 baseurl: ""
 
+plugins:
+  - jekyll-feed
+
 markdown: kramdown
 
 kramdown:
