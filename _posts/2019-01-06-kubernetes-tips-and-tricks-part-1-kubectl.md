@@ -202,7 +202,7 @@ nginx-766d958db5-2f8t9
 nginx-766d958db5-7868d
 ```
 
-Notice how _":"_ is inserted in the JSONPath expression and then replaced with a 
+Notice how _":"_ is inserted between the `range-end` expression and then replaced with a 
 newline using `tr` - this is a common pattern to get newlines into the output,
 which enables feeding resulting values into other tools.
 
@@ -222,7 +222,7 @@ nginx-766d958db5-7868d                     nginx:1.7.9
 tiller-deploy-6995d897d4-6b4xj             gcr.io/kubernetes-helm/tiller:v2.9.1
 ```
 
-Notice that you do not need concern yourself with iterating over `List`s, since the
+Notice that you do not need concern yourself with iterating over `List`s here, since the
 JSONPath used with `custom-columns` format already operates on individual items.
 
 ## Conclusion
