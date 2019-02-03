@@ -41,7 +41,7 @@ actually happened.
 This is what the `-p`/`--previous` flag is for:
 
 ```shell
-kubectl logs <pod-name> -p
+kubectl logs -p <pod-name>
 ```
 
 Note that log storage retention is subject to
