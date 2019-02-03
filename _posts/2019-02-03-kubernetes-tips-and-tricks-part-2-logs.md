@@ -10,7 +10,7 @@ comments-issue-id: 2
 
 Chances are your Kubernetes setup includes a log collection pipeline, perhaps
 leveraging solutions such as the ELK stack (or
-"[EFK](https://blog.ptrk.io/how-to-deploy-an-efk-stack-to-kubernetes/)". As with
+"[EFK](https://blog.ptrk.io/how-to-deploy-an-efk-stack-to-kubernetes/)"). As with
 almost anything in Kubernetes, when it comes to logs, there's many ways to skin
 the cat. Still, it's useful to get to grips with barebones log-related features
 of `kubectl`, which are surprisingly powerful and sometimes downright necessary
