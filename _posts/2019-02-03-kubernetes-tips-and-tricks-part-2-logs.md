@@ -92,7 +92,7 @@ It'll give you logs across multiple `Pod`s, but still has a couple of drawbacks:
 
 There are some 3rd-party tools striving to address the above limitations,
 though: check out [kubetail](https://github.com/johanhaleby/kubetail) or
-[stern](https://github.com/wercker/stern). The former will even give you a fancy
+[stern](https://github.com/wercker/stern). The latter will even give you a fancy
 color-coded output.
 
 ## 6. Conclusion
