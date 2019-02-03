@@ -72,7 +72,7 @@ one of the options from the previous section:
 kubectl logs <pod-name> --tail 10 --follow
 ```
 
-## 5. Logs from multiple Pods at once
+## 5. Logs from multiple pods at once
 
 Running an application in multiple instances poses a slight problem when
 inspecting logs conveniently. But since all `Pod`s based on a `Deployment` spec
